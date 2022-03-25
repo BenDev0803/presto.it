@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presto</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- Bootstrap CDN -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- sezione header     -->
+
+<header>
+
+    <a href="#" class="logo"><i class="fab fa-product-hunt"></i>Presto.</a>
+
+    <nav class="barranav">
+        <a class="active" href="#home">home</a>
+        <a href="#prodotti">Prodotti</a>
+        <a href="#azienda">Azienda</a>
+        <a href="#catalogo">catalogo</a>
+        <a href="#recensioni">Recensioni</a>
+        <a href="#spedizioni">Spedizioni</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="catalogo-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- fine header-->
+
+<!-- ricerca  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="cerca qui..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- sezione home  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>i piú venduti della settimana</span>
+                    <h3>giacche sportive</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">acquista ora</a>
+                </div>
+                <div class="image">
+                    <img src="https://media.wired.com/photos/606ce52941bf976945513469/191:100/w_2086,h_1092,c_limit/Gear-Cloudburst-Jacket---Mandarin-Front-square-grey-back.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>i piú venduti della settimana</span>
+                    <h3>linea carhartt</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">acquista ora</a>
+                </div>
+                <div class="image">
+                    <img src="https://www.arbeitsschutz-arbeitskleidung.de/media/image/aa/7a/89/carhartt-A18-Muetze-CarharttBrown.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>i piú venduti della settimana</span>
+                    <h3>bricolage</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">acquista ora</a>
+                </div>
+                <div class="image">
+                    <img src="https://advancedct.com/wp-content/uploads/2016/04/Work-Tools.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- fine sezione home -->
+
+<!-- sezione prodotti  -->
+
+<section class="prodotti" id="prodotti">
+
+    <h3 class="sub-heading"> i nostri prodotti </h3>
+    <h1 class="heading"> i piú venduti. </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="https://www.ibs.it/images/9788822749772_0_536_0_75.jpg" alt="">
+            <h3>George Orwell: 1984</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>€15.99</span>
+            <a href="#" class="btn">aggiungi al carrello</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="https://machow2.com/wp-content/uploads/2020/10/best-drawing-tablet-mac-cover.jpg" alt="">
+            <h3>TAvola grafica Wacom</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>€205.99</span>
+            <a href="#" class="btn">aggiungi al carrello</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="https://www.picclickimg.com/d/l400/pict/254186296985_/Maglietta-uomo-DRINK-t-shirt-maglia-simpatica-divertente-ironic.jpg" alt="">
+            <h3>T-Shirt personalizzate</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>€15.99</span>
+            <a href="#" class="btn">aggiungi al carrello</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="https://cdn.vox-cdn.com/thumbor/PDgMj8Fc84XQtUFsHAF95X85Sdc=/0x0:2439x1625/1200x800/filters:focal(1025x618:1415x1008)/cdn.vox-cdn.com/uploads/chorus_image/image/69123675/5.0.png" alt="">
+            <h3>cuffie da gaming</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>€59.99</span>
+            <a href="#" class="btn">aggiungi al carrello</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="https://ksr-ugc.imgix.net/assets/029/351/094/781f403bfd495fe330bf4be18b4203e0_original.png?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1591341792&auto=format&frame=1&q=92&s=5befcde073edfb72d1c69a8d55631976" alt="">
+            <h3>tastiera meccanica</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>€79.99</span>
+            <a href="#" class="btn">aggiungi al carrello</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="https://cdn.shopify.com/s/files/1/0419/1525/products/1024x1024-Men-Explorer-DarkOlive-1.jpg?v=1602093337" alt="">
+            <h3>Dr. Martens</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>€89.99</span>
+            <a href="#" class="btn">aggiungi al carrello</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- fine sezione prodotti -->
+
+<!-- azienda  -->
+
+<section class="azienda" id="azienda">
+
+    <h3 class="sub-heading"> azienda </h3>
+    <h1 class="heading"> perché scegliere noi? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="https://picsum.photos/2000" alt="">
+        </div>
+
+        <div class="content">
+            <h3>spedizioni veloci</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta odio corporis nihil!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nemo. Sit porro illo eos cumque deleniti iste alias, eum natus.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>spedizioni gratuite</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-euro-sign"></i>
+                    <span>pagamenti facili</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>servizio 24/24 7/7 </span>
+                </div>
+            </div>
+            <a href="#" class="btn">scopri di piú</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- fine sezione azienda -->
+
+<!-- sezione catalogo  -->
+
+<section class="catalogo" id=       "catalogo">
+
+    <h3 class="sub-heading"> <a href="./catalogo.html">il nostro catalogo</a>  </h3>
+    <h1 class="heading"> le offerte del giorno </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="https://picsum.photos/300" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>prodotto</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">aggiungi al carrello</a>
+                <span class="price">9,99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://picsum.photos/300" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>prodotto</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">aggiungi al carrello</a>
+                <span class="price">9,99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://picsum.photos/300" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>prodotto</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">aggiungi al carrello</a>
+                <span class="price">9,99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://picsum.photos/300" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>prodotto</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">aggiungi al carrello</a>
+                <span class="price">9,99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://picsum.photos/300" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>prodotto</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">aggiungi al carrello</a>
+                <span class="price">9,99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://picsum.photos/300" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>prodotto</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">aggiungi al carrello</a>
+                <span class="price">9,99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://picsum.photos/300" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>prodotto</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">aggiungi al carrello</a>
+                <span class="price">9,99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://picsum.photos/300" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>prodotto</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">aggiungi al carrello</a>
+                <span class="price">9,99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://picsum.photos/300" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>prodotto</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <a href="#" class="btn">aggiungi al carrello</a>
+                <span class="price">9,99€</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- fine catalogo -->
+
+<!-- recensioni  -->
+
+<section class="recensioni" id="recensioni">
+
+    <h3 class="sub-heading"> recensioni </h3>
+    <h1 class="heading"> cosa dicono di noi </h1>
+
+    <div class="swiper-container recensioni-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Mario Rossi</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Mario Rossi</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Mario Rossi</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Mario Rossi</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- fine recensioni -->
+
+<!-- sezione spedizioni  -->
+
+<section class="spedizioni" id="spedizioni">
+
+    <h3 class="sub-heading"> Acquista adesso! </h3>
+    <h1 class="heading"> spedizioni gratuite e veloci. </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>il tuo nome</span>
+                <input type="text" placeholder="scrivi il tuo nome">
+            </div>
+            <div class="input">
+                <span>il tuo numero</span>
+                <input type="number" placeholder="scrivi il tuo numero">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>i tuoi acquisti</span>
+                <input type="text" placeholder="inserisci il numero di spedizione">
+            </div>
+            <div class="input">
+                <span>coupon</span>
+                <input type="test" placeholder="inserisci codice">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>numero</span>
+                <input type="number" placeholder="inserisci numero">
+            </div>
+            <div class="input">
+                <span>data e ora</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>il tuo indirizzo</span>
+                <textarea name="" placeholder="inserisci indirizzo" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>il tuo messaggio</span>
+                <textarea name="" placeholder="inserisci il tuo messaggio" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="acquista ora" class="btn">
+
+    </form>
+
+</section>
+
+<!-- spedizioni section ends -->
+
+<!-- footer inizio  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Locazioni</h3>
+            <a href="#">india</a>
+            <a href="#">Giappone</a>
+            <a href="#">russia</a>
+            <a href="#">USA</a>
+            <a href="#">francia</a>
+        </div>
+
+        <div class="box">
+            <h3>link veloci</h3>
+            <a href="#">home</a>
+            <a href="#">prodotti</a>
+            <a href="#">azienda</a>
+            <a href="#">catalogo</a>
+            <a href="#">reivew</a>
+            <a href="#">spedizioni</a>
+        </div>
+
+        <div class="box">
+            <h3>informazioni di contatto</h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">+111-222-3333</a>
+            <a href="#">mail@mail.com</a>
+            <a href="#">mail@mail.com</a>
+            <a href="#">via roma, roma. lazio ()IT</a>
+        </div>
+
+        <div class="box">
+            <h3>seguiteci</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <div class="credit"> copyright @ 2022 by <span>mr. bendev</span> </div>
+
+</section>
+
+<!-- fine footer -->
+
+<!-- caricamento  -->
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js   -->
+<script src="main.js"></script>
+
+</body>
+</html>
